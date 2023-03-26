@@ -23,7 +23,7 @@ def ticketNew():
 
     # set this url page that shows all the theater
     url = "https://www.ticketnew.com/Viduthalai-Tickets-Online-Booking-Show-Timings/Release-Date/26556?utm_source=web&utm_medium=scrollbanner&utm_campaign=movie&utm_content=Viduthalai"
-    playsound("./BOMB_SIREN-BOMB_SIREN-247265934.mp3")
+    # playsound("./BOMB_SIREN-BOMB_SIREN-247265934.mp3")
     req = Request(url, None, HEADERS)
     with urlopen(req) as response:
         html = response.read()
